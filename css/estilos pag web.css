@@ -1,3 +1,32 @@
-p{
-color: brown;
+/* Fuentes letra: 
+font-family: 'Orbitron', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; 
+*/
+
+body{
+    font-family: font-family: 'Roboto Condensed', sans-serif; 
+}
+
+header{
+    display: flex;
+}
+
+.holder{
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.holder h2{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.slogan{
+    margin-top: 15px;
+    margin-left: 48%;
+}
+
+nav{
+
 }
