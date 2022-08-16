@@ -3,37 +3,42 @@ font-family: 'Orbitron', sans-serif;
 font-family: 'Roboto Condensed', sans-serif; 
 */
 
-body{
-    font-family: font-family: 'Roboto Condensed', sans-serif; 
+body {
+    font-family: font-family: 'Roboto Condensed', sans-serif;
 }
 
-header{
+header {
     display: flex;
 }
 
-.holder{
+.holder {
     display: flex;
     gap: 12px;
-    margin-top: 15px;
-    margin-left: 15px;
+    margin-top: 5px;
+    margin-left: 12px;
 }
 
-.holder h2{
+.holder img {
+    padding-top: 8px;
+}
+
+.holder h2 {
     font-family: 'Orbitron', sans-serif;
+    margin-top: 30px;
 }
 
-.slogan{
+.slogan {
     margin-top: 15px;
-    margin-left: 48%;
+    margin-left: 50%;
 }
 
-nav{
-    margin-top: 15px;
+nav {
+    margin-top: 20px;
     background-color: black;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -41,7 +46,7 @@ nav ul{
     padding: 0%;
 }
 
-nav ul li a{
+nav ul li a {
     color: white;
     padding: 8px 10px;
     display: block;
@@ -49,6 +54,27 @@ nav ul li a{
     text-decoration: none;
 }
 
-footer{
-    
+nav ul li a:hover {
+    background-color: rgb(37, 33, 33);
+}
+
+nav ul li a.activo {
+    background-color: rgb(23, 23, 23);
+}
+
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+
+footer {
+    color: white;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
