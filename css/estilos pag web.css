@@ -103,5 +103,98 @@ footer {
         padding-bottom: 5px;
         border: 2px solid #000000;
         text-align: center;
+        font-style: blond;
+    }
+
+    .texto p{
         font-style: italic;
+    }
+
+    /* ---------------------------------------- Galeria ---------------------------------------------- */
+
+    .galeria{
+        display: flexbox;
+        flex-direction: column;
+    }
+
+    .galeria img{
+       margin-top: 20px;
+    }
+
+    .galeria p{
+        margin-top: 25px;
+        font-style: italic;
+    }
+
+    /* ---------------------------------------- Contacto ---------------------------------------------- */
+
+    .holdercontac{
+        display: flex;
+        gap: 200px;
+    }
+
+    .formu{
+        border: 4px solid #000000;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .datos{
+        border: 4px solid #000000;
+        padding-right: 10px;
+        padding-left: 15px;
+    }
+
+    .datos ul li{
+        font-style: italic;
+    }
+
+    .datos img{
+        padding-left: 60px;
+        margin-top: 10px;
+        margin-bottom: -4px;
+    }
+
+    .formulario p{
+        display: flex;
+    }
+
+    .formulario p label{
+        min-width: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .formulario p input,
+    .formulario p textarea{
+        width: 100%;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid black;
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .formulario textarea{
+        resize: none;
+        height: 200px;
+    }
+
+    .formulario p:nth-child(4){
+        align-items: start;
+    }
+
+    .formulario input[type="submit"] {
+        background-color: #1f1e1b;
+        color: white;
+        font-size: 16px;
+        padding: 6px 20px;
+        width: auto;
+        position: relative;  /* Relative para hacer las ediciones que vienen abajo*/
+        left: 80px;
+        cursor: pointer;
+    }
+
+    .formulario input[type="submit"]:hover{
+        box-shadow: 0 0 10px black;
     }
