@@ -79,6 +79,45 @@ footer {
     text-align: center;
 }
 
+/* ------------------------------------------ Home ------------------------------------------------ */
+
+.texto{
+    width: 70%;
+    margin-top: 15px;
+}
+
+.testimonios{
+    width: 25%;
+    margin-top: 8px;
+    
+}
+
+.testimonio{
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.testimonio .testi{
+    background-color: #000000;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+.testimonio .autor {
+    font-size: 12px;
+    text-align: center;
+    display: block;
+}
+
+.columnas{
+  display: flex;
+  justify-content: space-between;
+}
+
 /* ---------------------------------------- Nosotros ------------------------------------------------ */
 
 
@@ -143,10 +182,6 @@ footer {
         border: 4px solid #000000;
         padding-right: 10px;
         padding-left: 15px;
-    }
-
-    .datos ul li{
-        font-style: italic;
     }
 
     .datos img{
